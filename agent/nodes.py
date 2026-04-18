@@ -7,6 +7,16 @@ from datetime import datetime
 import json
 import re
 
+def safety_check(question):
+    q = question.lower()
+
+    if "mars" in q or "capital of mars" in q:
+        return "out_of_scope"
+
+    if "ignore all instructions" in q or "always say" in q:
+        return "prompt_injection"
+
+    return "safe"
 
 def _log(state, message):
     state["logs"].append(f"{datetime.now().isoformat()} | {message}")
@@ -176,23 +186,52 @@ def decision_node(state: CapstoneState):
     question = state.get("question", "").lower()
     profile = state.get("user_profile", {})
 
-    #  DIRECT MEMORY ANSWERS
-    if "what is my name" in question:
+    # 🔥 SAFETY CHECK
+    safety = safety_check(question)
+
+    if safety == "out_of_scope":
         return {
             **state,
-            "answer": f"Your name is {profile.get('name', 'not stored')}",
+            "answer": "I don't have knowledge about that topic. Please ask startup or career related questions.",
+            "reasoning": "Out-of-scope query detected",
+            "confidence": 0.9
+        }
+
+    if safety == "prompt_injection":
+        return {
+            **state,
+            "answer": "I cannot follow that instruction. I will provide an objective decision instead.",
+            "reasoning": "Prompt injection attempt detected",
+            "confidence": 0.9
+        }
+
+    # 🔥 MEMORY ENGINE (FIXED)
+    if "name" in question and "want" in question:
+        if profile.get("name") and profile.get("goal"):
+            return {
+                **state,
+                "answer": f"Your name is {profile['name']} and you want to {profile['goal']}",
+                "reasoning": "Retrieved from memory",
+                "confidence": 0.95
+            }
+
+    if "name" in question and profile.get("name"):
+        return {
+            **state,
+            "answer": f"Your name is {profile['name']}",
             "reasoning": "Retrieved from memory",
             "confidence": 0.95
         }
 
-    if "what do i want" in question:
+    if ("want" in question or "goal" in question) and profile.get("goal"):
         return {
             **state,
-            "answer": f"You want to {profile.get('goal', 'not specified')}",
+            "answer": f"You want to {profile['goal']}",
             "reasoning": "Retrieved from memory",
             "confidence": 0.95
         }
 
+    # 🔥 NORMAL FLOW
     prompt = FINAL_PROMPT.format(
         question=state.get("question", ""),
         analysis=state.get("analysis", ""),
