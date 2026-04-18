@@ -1,0 +1,12 @@
+Topic: Market Analysis Basics
+Key Points:
+•TAM, SAM, and SOM Sizing
+•Competitor Landscape Mapping
+•Market Trend Identification
+•Demand Signal Evaluation
+Explanation:
+Market analysis is the structured process of quantifying the opportunity space and understanding competitive dynamics before committing to a product or business strategy. It provides the data foundation for investment decisions, go-to-market planning, and long-term positioning.
+The first framework is market sizing using TAM, SAM, and SOM. Total Addressable Market (TAM) represents the maximum global revenue opportunity if 100% market share were achieved. Serviceable Addressable Market (SAM) narrows this to the segment reachable with the current product and distribution model. Serviceable Obtainable Market (SOM) is the realistic share capturable within a defined timeframe given current resources and competitive pressure. Investors and founders use SOM as the operational planning unit.
+Competitor analysis identifies direct competitors, indirect substitutes, and potential future entrants. For each competitor, the analysis should document pricing models, target segments, core differentiators, funding status, and known weaknesses. This mapping reveals whitespace opportunities and helps calibrate positioning. Underestimating competitors is among the most common strategic errors in early-stage startups.
+Market trend identification involves evaluating macro and micro forces shaping demand. These include regulatory shifts, technology adoption curves, demographic changes, and behavioral pattern shifts post major disruptions. Startups operating with trend tailwinds require significantly less capital to achieve comparable growth versus those fighting structural headwinds.
+Demand signal evaluation uses qualitative and quantitative proxies — search volume trends, App Store category growth, funding flows into adjacent sectors, and enterprise procurement behavior — to validate that the market is actively growing and not in structural decline. A well-executed market analysis reduces the probability of entering markets too early, too late, or with insufficient differentiation.

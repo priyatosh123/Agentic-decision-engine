@@ -1,0 +1,13 @@
+Topic: Risk Assessment in Startups
+Key Points:
+•Financial Risk Quantification
+•Execution and Team Risk
+•Market and Timing Risk
+•Risk Mitigation Prioritization
+Explanation:
+Risk assessment in startups is the systematic identification, quantification, and mitigation planning of threats to business viability. Unlike large enterprises, startups operate with constrained resources, making unmanaged risks disproportionately fatal. Structured risk assessment enables rational resource allocation and investor confidence.
+Financial risk encompasses runway management, burn rate control, revenue concentration, and dependency on external financing. The primary metric is months of runway at current burn. Startups with under six months of runway face existential pressure that distorts strategic decision-making. Financial risk is compounded when more than 40% of revenue is concentrated in fewer than three customers.
+Execution risk relates to the team's capacity to deliver. Key indicators include founding team completeness (technical, commercial, operational), prior relevant experience, decision velocity, and ability to recruit. Execution risk is elevated in first-time founding teams tackling complex regulatory or infrastructure domains. It is the most common reason early-stage startups fail despite validated market opportunities.
+Market risk includes premature timing (technology or user behavior not yet ready), late entry (market already dominated), and regulatory exposure. Timing risk is particularly difficult to assess but can be partially mitigated by examining technology adoption curves and surveying potential early adopters on current workaround usage.
+Risk mitigation prioritization should follow impact-probability scoring. Each identified risk is rated on likelihood and potential damage. High-probability, high-impact risks require immediate mitigation plans. Low-probability, low-impact risks are monitored but not acted upon urgently. Mitigation strategies include diversifying revenue sources, building operational redundancy, structuring contracts to limit liability, and maintaining strategic cash reserves. Risk assessment should be reviewed quarterly as the business environment evolves.
+

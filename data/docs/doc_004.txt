@@ -1,0 +1,12 @@
+Topic: MVP Development Strategy
+Key Points:
+•Core Value Proposition Isolation
+•Rapid Build and Deployment
+•Hypothesis-Driven Testing
+•Iteration Based on Signal Data
+Explanation:
+Minimum Viable Product (MVP) strategy is about building the smallest possible product that delivers the core value proposition and enables meaningful learning from real users. The MVP is not a beta version of the full product — it is a learning instrument designed to test the most critical business assumptions with minimum resource expenditure.
+The first step is isolating the single most essential value a user receives. This requires eliminating all features that are additive but not central to the primary use case. Teams that build too broadly in MVP phase waste engineering cycles validating peripheral assumptions while the core hypothesis remains untested. The test is simple: if a user cannot understand and derive value from the product in the first session, the MVP scope is too complex.
+Rapid build and deployment prioritizes time-to-user-feedback over polish. No-code tools, manual backend operations, and third-party APIs are valid MVP components if they accelerate the feedback cycle. The cost of building too much before testing is far higher than the cost of building something imperfect but deployable within two to four weeks.
+Hypothesis-driven testing frames each MVP release around a falsifiable claim: "Users will complete the onboarding in under three minutes" or "30% of trial users will initiate a paid conversion within 14 days." Without clear hypotheses, teams accumulate user data without actionable conclusions.
+Iteration is driven by quantitative signals — activation rates, feature usage depth, session frequency, churn timing — and qualitative user interviews. The decision framework at each iteration cycle is: pivot (change the core value proposition), persevere (refine execution), or expand (add adjacent features). MVP cycles should run in two-to-four-week sprints with explicit decision gates to prevent indefinite drift without strategic commitment.

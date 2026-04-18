@@ -1,0 +1,12 @@
+Topic: Resume Building for Tech Roles
+Key Points:
+•ATS Optimization and Keyword Strategy
+•Impact-Oriented Achievement Framing
+•Project and Technical Depth Signaling
+•Format and Structural Best Practices
+Explanation:
+Resume building for technical roles requires optimizing simultaneously for Applicant Tracking System (ATS) parsing, human recruiter scanning, and hiring manager technical evaluation. A resume that passes ATS but fails human review — or passes human review but lacks technical depth — underperforms across the hiring funnel.
+ATS optimization centers on keyword alignment with job descriptions. Technical recruiters and ATS systems filter on specific technologies, frameworks, methodologies, and role titles. Resumes must include exact-match terminology from target job postings: programming languages, cloud platforms, tooling ecosystems, and architecture patterns. Generic technology lists without context are less effective than technology references embedded within achievement statements.
+Achievement framing converts task descriptions into impact statements. The formula is: action verb + specific technology or method + quantified outcome. "Reduced API response latency by 40% by implementing Redis caching layer" is significantly stronger than "worked on backend performance improvements." Every bullet point should communicate a decision made, a system built, or a measurable outcome delivered.
+Project and technical depth signaling is critical for candidates with limited professional experience. Side projects, open-source contributions, and competitive programming achievements demonstrate initiative and technical range. Projects should be described with stack details, scale indicators, and design decisions — not just feature lists. Links to GitHub repositories with meaningful activity history provide verifiable technical signal.
+Structural best practices include: single-page format for candidates with under eight years of experience, reverse-chronological ordering, consistent formatting without decorative elements that confuse ATS parsers, and section ordering of Summary, Skills, Experience, Projects, and Education. Font size should remain between 10 and 12 points for readability. Quantified metrics should appear in at least 60% of experience bullet points to establish credibility and specificity.

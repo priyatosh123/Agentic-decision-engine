@@ -1,0 +1,12 @@
+Topic: FAANG Preparation Strategy
+Key Points:
+•Data Structures and Algorithms Mastery
+•System Design Interview Preparation
+•Project Portfolio and Behavioral Readiness
+•Structured Practice Timeline
+Explanation:
+FAANG and top-tier tech company interview preparation requires a disciplined, multi-track strategy covering algorithmic problem-solving, large-scale system design, and structured behavioral communication. Unfocused preparation consistently underperforms against a targeted, timeline-driven approach.
+Data structures and algorithms (DSA) preparation should begin with mastery of foundational topics: arrays, hash maps, trees, graphs, dynamic programming, and binary search. Platforms such as LeetCode categorize problems by pattern. The most effective approach is pattern-based learning rather than problem-by-problem memorization. Solving 150 to 200 high-quality problems across 12 to 15 core patterns provides coverage for approximately 80% of technical screen scenarios. Spaced repetition of previously solved problems prevents regression.
+System design preparation targets senior and above positions but is increasingly evaluated at mid-level as well. Preparation requires deep familiarity with distributed system components: load balancers, caching layers (Redis, CDN), message queues (Kafka, SQS), database sharding and replication, and API gateway design. The preparation framework is: requirements clarification, capacity estimation, high-level architecture, component deep-dive, and failure mode analysis. Practicing with real-world systems (design Twitter's feed, design a URL shortener) builds the reasoning fluency that interviewers evaluate.
+Behavioral preparation uses the STAR framework (Situation, Task, Action, Result) to document high-impact professional experiences. Preparation should include stories addressing: leadership in ambiguity, conflict resolution, technical disagreement, failure and recovery, and cross-functional influence. Stories must include measurable outcomes.
+A structured 12-week preparation timeline allocates weeks one through eight to DSA, weeks seven through ten to system design (overlapping), and weeks ten through twelve to full mock interviews with timed conditions. Mock interviews with peers or platforms providing interviewer feedback are essential for calibrating communication quality under pressure.

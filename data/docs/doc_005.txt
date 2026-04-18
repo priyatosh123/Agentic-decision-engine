@@ -1,0 +1,12 @@
+Topic: Tech Stack Decision Guide
+Key Points:
+•Scalability and Architecture Fit
+•Team Expertise Alignment
+•Cost and Infrastructure Efficiency
+•Build vs. Buy Tradeoffs
+Explanation:
+Tech stack selection is a high-leverage architectural decision that affects development velocity, infrastructure cost, engineering hiring, and long-term scalability. Choosing incorrectly compounds over time as migration costs grow proportionally with system complexity.
+The primary criterion is fit with the product's technical requirements. Data-intensive applications benefit from Python ecosystems (FastAPI, Pandas, PyTorch) and PostgreSQL or cloud-native data warehouses. Real-time consumer applications favor Node.js or Go backends with WebSocket support. Frontend decisions between React, Vue, or Next.js should be driven by SEO requirements, interactivity density, and team familiarity rather than trend popularity.
+Team expertise alignment is often underweighted. A technically superior stack adopted by a team unfamiliar with it will produce slower delivery and higher defect rates than a competent team using a familiar, marginally less optimal stack. Startups in the zero-to-one phase should bias toward team proficiency unless the product use case creates hard technical constraints.
+Infrastructure cost modeling must distinguish between early-stage and growth-phase needs. Serverless architectures (AWS Lambda, Vercel, Supabase) minimize fixed costs at low traffic but become expensive at scale. Traditional containerized deployments (Kubernetes, ECS) carry higher operational overhead but offer predictable cost curves at volume. Cost decisions should be modeled at 10x and 100x current usage, not just at current state.
+Build vs. buy decisions apply to authentication, payments, notifications, search, and analytics. Buying through established providers (Stripe, Auth0, Algolia, Segment) is almost always faster and cheaper than building in-house equivalents for non-differentiating infrastructure. Engineering resources are best reserved for the product surface area that constitutes genuine competitive differentiation. Over-engineering foundational infrastructure is a consistent failure mode in technical founding teams.

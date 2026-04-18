@@ -1,0 +1,12 @@
+Topic: Career Planning for Software Engineers
+Key Points:
+•Skill Roadmap Construction
+•Domain and Specialization Selection
+•Visibility and Network Development
+•Progression Milestone Definition
+Explanation:
+Career planning for software engineers requires a structured approach to skill acquisition, domain positioning, and professional visibility. Ad-hoc skill accumulation without strategic direction leads to generalist profiles that struggle to command senior compensation or specialized opportunities.
+Skill roadmap construction begins with honest assessment of current competency across core areas: data structures and algorithms, system design, domain-specific frameworks, and collaborative practices such as code review and technical documentation. From this baseline, a 12-to-24-month roadmap is constructed targeting the gap between current state and target role requirements. Skill trees should prioritize depth in one domain before breadth.
+Domain selection determines long-term earning potential and career optionality. High-demand domains as of current market conditions include distributed systems engineering, machine learning infrastructure, developer tooling, and security engineering. Domain selection should balance personal interest with market demand signals — roles commanding premium compensation in stagnant domains will compress over time.
+Visibility development is undervalued by most engineers. Publishing technical writing, contributing to open-source projects, speaking at community events, and maintaining an active GitHub profile creates inbound career opportunities that bypass competitive application pipelines. Senior roles at top-tier companies are frequently filled through network referrals before public posting.
+Progression milestone definition means mapping explicit criteria for each career level: junior, mid, senior, staff, and principal. Each level has distinct expectations around scope of impact, ownership, cross-team influence, and technical judgment. Engineers who define these milestones proactively can navigate performance reviews and promotion cycles more effectively than those relying on manager discretion. Career planning reviews should be conducted semi-annually and adjusted for market and personal circumstances.

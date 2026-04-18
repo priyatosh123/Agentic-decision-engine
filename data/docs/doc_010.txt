@@ -1,0 +1,12 @@
+Topic: Decision-Making Frameworks
+Key Points:
+•SWOT Analysis for Strategic Positioning
+•Cost-Benefit Analysis for Resource Allocation
+•Risk-Reward Evaluation
+•Framework Selection Based on Decision Type
+Explanation:
+Decision-making frameworks provide structured processes for evaluating options, reducing cognitive bias, and improving consistency in high-stakes choices. For startups, career decisions, and product strategy, the selection of an appropriate framework is as important as the execution of the framework itself.
+SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is most effective for strategic positioning decisions where both internal capabilities and external environment are relevant. It maps internal factors (strengths, weaknesses) against external factors (opportunities, threats) to identify where the organization or individual has asymmetric advantages or critical exposure. SWOT is a diagnostic tool, not a prescriptive one — it informs direction but does not output a decision directly. Common failure modes include listing generic items and failing to derive concrete strategic implications.
+Cost-benefit analysis (CBA) is appropriate for resource allocation decisions with quantifiable trade-offs: infrastructure investments, hiring decisions, tool adoption, and feature development prioritization. CBA requires assigning monetary or time-value estimates to both costs and benefits over a defined horizon. The critical discipline is including opportunity costs — the value of the best alternative not chosen — which are consistently underweighted in informal decision-making.
+Risk-reward evaluation is used when potential upside is significant but probability-weighted outcomes are uncertain. It is the dominant framework for investment decisions, market entry choices, and pivots. The expected value calculation (probability × magnitude across scenarios) provides a rational basis for comparison but must be stress-tested with pessimistic scenarios to avoid overconfidence in base-case assumptions.
+Framework selection itself requires judgment. Low-stakes, reversible decisions should be made quickly with minimal framework overhead. High-stakes, irreversible decisions warrant full structured analysis. The meta-principle is that frameworks reduce bias and improve documentation of reasoning, but they do not substitute for domain knowledge and contextual judgment.
